@@ -8,3 +8,4 @@
 * Actual web server - python
 * Firewall - ufw
 * DNS Provider - Cloudflare
+* DDNS - ddclient
