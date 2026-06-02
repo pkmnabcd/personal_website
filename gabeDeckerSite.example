@@ -4,7 +4,7 @@ server {
     listen [::]:80; # Supports IPv6 connections
 
     # Listen for any traffic hitting your Pi's IP address
-    server_name _;
+    server_name ip_or_domain_name_here;
 
     root /home/gabe/Server/personal_website/website;
     index index.html;
