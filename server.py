@@ -15,6 +15,6 @@ if __name__ == "__main__":
 
     # See the following documentation for SimpleHTTPRequestHandler behavior.
     # https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler.do_GET
-    server = ThreadingHTTPServer(("127.0.0.1", 8000), SimpleHTTPRequestHandler)
-    print("Server running on http://127.0.0.1:8000 ...")
+    server = ThreadingHTTPServer(("127.0.0.1", 8003), SimpleHTTPRequestHandler)
+    print("Server running on http://127.0.0.1:8003 ...")
     server.serve_forever()
