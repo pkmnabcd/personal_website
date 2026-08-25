@@ -82,6 +82,14 @@ header {
     margin-bottom: 0.5rem;
 }
 
+.main-content a,
+.main-content a:visited,
+.main-content a:hover,
+.main-content a:active {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 .paragraph-padding {
     padding-top: 1rem;
 }
