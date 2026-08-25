@@ -154,7 +154,18 @@ h2::after {
     margin-top: 2rem;
 }
 
+.project-card,
+.project-card:visited,
+.project-card:hover,
+.project-card:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
     background-color: var(--card-bg);
     padding: 2rem;
     border-radius: 12px;
@@ -167,9 +178,15 @@ h2::after {
     border-color: var(--primary-color);
 }
 
+.project-card p {
+    text-decoration: none;
+    color: var(--text-color, inherit);
+}
+
 .project-card h3 {
     margin-bottom: 0.5rem;
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 /* --- Footer --- */
